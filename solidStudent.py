@@ -80,19 +80,12 @@ class Student():
         except AttributeError:
             return 0
 
-    def __str__(self):
-        return f'{self.full_name} is {self.age} years old and is in cohort {self.cohort_number}'
-
-
-
 
 castle = Student()
 castle.first_name = "castle"
 castle.last_name = "crawford"
 castle.age = 28
 castle.cohort_number= 38
-
-
 
 
 print(castle.first_name)
